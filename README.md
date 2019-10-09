@@ -2,7 +2,7 @@
 
 [Teseo Schneider](https://cs.nyu.edu/~teseo/)
 
-Refer to the [website]() for the full description.
+Refer to the [website](https://teseoch.github.io/blackbox-course-imr/) for the full description.
 
 ## Abstract
 The numerical solution of partial differential equations (PDEs) is ubiquitous in engineering applications, for the simulation of elastic deformations, fluids, and other physical phenomena.
