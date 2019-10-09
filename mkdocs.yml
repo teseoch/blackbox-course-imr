@@ -1,0 +1,45 @@
+site_name: Back-Box Analysis&#58; From Theory to Practice
+# strict: true
+docs_dir: 'docs'
+remote_branch: 'gh-pages'
+theme:
+  name: material
+  logo:
+    icon: 'school'
+  palette:
+    primary: 'light green'
+    accent: 'green'
+markdown_extensions:
+  - codehilite
+  - footnotes
+  - admonition
+  - toc:
+      permalink: true
+  - markdown.extensions.smarty
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      repo_url_shortener: true
+      user: polyfem
+      repo: polyfem
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+plugins:
+  - mknotebooks:
+      execute: true
+      preamble: "docs/plot_to_md.py"
+      timeout: -1
+nav:
+  - Home: index.md
