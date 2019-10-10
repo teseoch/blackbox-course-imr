@@ -1,4 +1,4 @@
-# Back-Box Analysis: From Theory to Practice
+# Black-Box Analysis: From Theory to Practice
 
 [Teseo Schneider](https://cs.nyu.edu/~teseo/)
 
